@@ -3,6 +3,7 @@
  --title-text-color:#196F3;
  --accent-text-color:#757575;
  --primary-text-navigation:#2196F3;
+ --primary-bg-color: #ffffff;
 }
 body {
     background-color: #FFFFFF;
@@ -23,6 +24,9 @@ ul {
 .site-nav .link:focus {
     color: var(--primary-text-navigation);
 }
+.site-nav .link.current {
+color: var(--primary-text-navigation);
+}
 .site-info .link:hover {
     color: var(--primary-text-navigation);
 } 
@@ -36,6 +40,14 @@ ul {
 }
 .futures .futures-text {
     color: var(--accent-text-color);
+}
+ .button {
+    color: var(--primary-bg-color);
+    background-color: var(--primary-text-navigation);
+}
+.button.primary {
+    color: var(--primary-bg-color);
+    background-color: var(--primary-text-navigation);
 }
 
 
