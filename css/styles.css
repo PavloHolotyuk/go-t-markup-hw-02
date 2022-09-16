@@ -1,0 +1,47 @@
+:root {
+ --primary-text-color:#21212; 
+ --title-text-color:#196F3;
+ --accent-text-color:#757575;
+ --primary-text-navigation:#2196F3;
+}
+body {
+    background-color: #FFFFFF;
+    color: #212121;
+}
+ul {
+    list-style: none;
+}
+/* Ховер */
+.logo {
+    color: var(--primary-text-color);
+}
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--primary-text-navigation);
+}
+.site-info .link:hover {
+    color: var(--primary-text-navigation);
+} 
+/* майн */
+
+.section-title {
+    color: var(--primary-text-color);
+}
+.futures .futures-title {
+    color: var(--primary-text-color);
+}
+.futures .futures-text {
+    color: var(--accent-text-color);
+}
+
+
+
+
+
+
+
+
