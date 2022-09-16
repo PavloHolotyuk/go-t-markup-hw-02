@@ -8,16 +8,27 @@
 body {
     background-color: #FFFFFF;
     color: #212121;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em
 }
+
 ul {
     list-style: none;
 }
 /* Ховер */
 .logo {
     color: var(--primary-text-color);
+    font-family: Raleway, cursive;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
 }
 .site-nav .link {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -29,17 +40,38 @@ color: var(--primary-text-navigation);
 }
 .site-info .link:hover {
     color: var(--primary-text-navigation);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
 } 
-/* майн */
-
+.hero {
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
 .section-title {
     color: var(--primary-text-color);
-}
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16px;
+    text-align: center;
+   }
 .futures .futures-title {
     color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14px;
+   
 }
 .futures .futures-text {
     color: var(--accent-text-color);
+     font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
 }
  .button {
     color: var(--primary-bg-color);
@@ -48,6 +80,27 @@ color: var(--primary-text-navigation);
 .button.primary {
     color: var(--primary-bg-color);
     background-color: var(--primary-text-navigation);
+    ont-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+}
+.button-nav .link:hover,
+.button-nav .link:focus {
+color: var(--primary-text-navigation);
+}
+
+.button .link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1,62;
+text-align: center;
+}
+.site-portfolio .text-porfolio {
+font-weight: 700;
+font-size: 18px;
+line-height: 2px;
+letter-spacing: 0.06em;
 }
 
 
