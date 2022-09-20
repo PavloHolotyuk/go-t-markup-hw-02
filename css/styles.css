@@ -9,6 +9,7 @@
  --portfolio-color: #212121;
  --portfolio-text-color: #757575;
  --footer-bg-color: #2F303A;
+ --footer--info:rgba(255, 255, 255, 0.6);
 
 }
 body {
@@ -58,12 +59,12 @@ ul {
     color: var(--primary-text-navigation);
 } 
 .site-info a {
+    color: var(--accent-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14px;
     letter-spacing: 0.02em;
     text-decoration: none;
-
 }
 
 .hero {
@@ -90,14 +91,30 @@ ul {
 .futures .futures-title {
     color: var(--primary-text-color);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.18;
 }
 .futures .futures-text {
     color: var(--accent-text-color);
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.18;
 }
+
+.futures-ourteam .futures-title {
+    color: var(--portfolio-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+}
+.futures-ourteam .futures-text {
+    color: var(--portfolio-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em; 
+}
+
 
  .button {
     color: var(--primary-bg-color);
@@ -117,8 +134,8 @@ ul {
 .button-nav .link:hover,
 .button-nav .link:focus
  {
-background-color:var(--primary-bg-button);
-color: var(--primary-text-navigation);
+background-color:var(--primary-text-navigation);
+color: var(--primary-bg-color);
 text-align: center;
 letter-spacing: 0.03em;
 }
@@ -130,6 +147,8 @@ line-height: 1.62;
 text-align: center;
 }
 .button-nav .link {
+    background-color: var(--primary-bg-button);
+    font-family: inherit;
     color: var(--portfolio-color);
 font-weight: 500;
 font-size: 16px;
@@ -148,20 +167,39 @@ letter-spacing: 0.06em;
 color: var(--portfolio-text-color);
  font-weight: 400;
 font-size: 16px;
-line-height: 1,87;
+line-height: 1.87;
 letter-spacing: 0.03em;
 }
 .adress .adress-info {
-   font-weight: 400;
+    color: var(--primary-bg-color);
+font-weight: 400;
  font-size: 14px;
  line-height: 1.71;
  letter-spacing: 0.03em;
+ font-style: normal;
+}
+.site-info .link {
+    color: var(--footer--info);
+    font-style: normal;
+}
+.logo .logo-last {
+    color: var(--primary-bg-color);
+}
+.adress {
+    background-color: var(--privary-bg-hero);
 }
 
-
-
-
-
-
-
+.site-header .link {
+color: var(--portfolio-text-color);
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.site-header  .link:hover,
+.site-header.link:focus 
+ {
+    color: var(--primary-text-navigation);
+}
 
